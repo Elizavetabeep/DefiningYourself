@@ -2,6 +2,8 @@
 ::-webkit-scrollbar {
 	display:none;
 }
+
+/* for the heartbeat light glow */
 @-webkit-keyframes pulse {
   0% { box-shadow:0 0 8px white, inset 0 0 8px white; }
   50% { box-shadow:0 0 16px white, inset 0 0 14px white; }
@@ -46,6 +48,7 @@ body
         
         scroll-snap-align: start;
         }
+/*hoverHere.hovered method refrenced from meeting with Ali*/
 
 .hoverHere.hovered {
   height: 150px;
@@ -83,7 +86,7 @@ scroll-snap-align: start;
   transition-timing-function: cubic-bezier(0.42,0,1,1);
 }
 
-
+/*area names "finest", "finer", "Most fine", "bright" all refrenced from meeting with Ali */
 .finer {
   font-weight:500;
   font-family: "Roboto Mono";
